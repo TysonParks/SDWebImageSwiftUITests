@@ -9,7 +9,7 @@
 import SwiftUI
 import SDWebImageSwiftUI
 
-struct SDAnimatedImageBugTestView: View {
+struct SDAnimatedImageTestView: View {
   
   private var url: URL {
     let urlImages = TestImages.urlImages
@@ -150,7 +150,7 @@ struct SDAnimatedImageBugTestView: View {
 // MARK: -
 struct SDAnimatedImageBugTestView_Previews: PreviewProvider {
   static var previews: some View {
-    SDAnimatedImageBugTestView()
+    SDAnimatedImageTestView()
   }
 }
 

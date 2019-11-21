@@ -16,7 +16,7 @@
 		518941DB238721B100C4AB72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 518941D9238721B100C4AB72 /* LaunchScreen.storyboard */; };
 		518941E6238721B100C4AB72 /* SDWebImageSwiftUITestsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518941E5238721B100C4AB72 /* SDWebImageSwiftUITestsTests.swift */; };
 		518941F1238721B100C4AB72 /* SDWebImageSwiftUITestsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518941F0238721B100C4AB72 /* SDWebImageSwiftUITestsUITests.swift */; };
-		518941FF238721C300C4AB72 /* SDAnimatedImageBugTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518941FE238721C300C4AB72 /* SDAnimatedImageBugTestView.swift */; };
+		518941FF238721C300C4AB72 /* SDAnimatedImageTestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 518941FE238721C300C4AB72 /* SDAnimatedImageTestView.swift */; };
 		51894202238722FE00C4AB72 /* Lofty_TysonParks_APNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 51894201238722FE00C4AB72 /* Lofty_TysonParks_APNG.png */; };
 		518942042387230700C4AB72 /* SensualSoother_TysonParks_APNG.png in Resources */ = {isa = PBXBuildFile; fileRef = 518942032387230700C4AB72 /* SensualSoother_TysonParks_APNG.png */; };
 		9BDFB7548E1E83A3601A1C1F /* Pods_SDWebImageSwiftUITests_SDWebImageSwiftUITestsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B1AD24769069AFC4D3A2AD6 /* Pods_SDWebImageSwiftUITests_SDWebImageSwiftUITestsUITests.framework */; };
@@ -58,7 +58,7 @@
 		518941EC238721B100C4AB72 /* SDWebImageSwiftUITestsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SDWebImageSwiftUITestsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		518941F0238721B100C4AB72 /* SDWebImageSwiftUITestsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDWebImageSwiftUITestsUITests.swift; sourceTree = "<group>"; };
 		518941F2238721B100C4AB72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		518941FE238721C300C4AB72 /* SDAnimatedImageBugTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAnimatedImageBugTestView.swift; sourceTree = "<group>"; };
+		518941FE238721C300C4AB72 /* SDAnimatedImageTestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SDAnimatedImageTestView.swift; sourceTree = "<group>"; };
 		51894201238722FE00C4AB72 /* Lofty_TysonParks_APNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Lofty_TysonParks_APNG.png; sourceTree = "<group>"; };
 		518942032387230700C4AB72 /* SensualSoother_TysonParks_APNG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = SensualSoother_TysonParks_APNG.png; sourceTree = "<group>"; };
 		5C77A74087062E28C2BD61AA /* Pods-SDWebImageSwiftUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SDWebImageSwiftUITests.release.xcconfig"; path = "Target Support Files/Pods-SDWebImageSwiftUITests/Pods-SDWebImageSwiftUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -126,7 +126,7 @@
 				518941CE238721AF00C4AB72 /* AppDelegate.swift */,
 				518941D0238721AF00C4AB72 /* SceneDelegate.swift */,
 				518941D2238721AF00C4AB72 /* ContentView.swift */,
-				518941FE238721C300C4AB72 /* SDAnimatedImageBugTestView.swift */,
+				518941FE238721C300C4AB72 /* SDAnimatedImageTestView.swift */,
 				518941D4238721B100C4AB72 /* Assets.xcassets */,
 				518941D9238721B100C4AB72 /* LaunchScreen.storyboard */,
 				518941DC238721B100C4AB72 /* Info.plist */,
@@ -436,7 +436,7 @@
 			files = (
 				518941CF238721AF00C4AB72 /* AppDelegate.swift in Sources */,
 				518941D1238721AF00C4AB72 /* SceneDelegate.swift in Sources */,
-				518941FF238721C300C4AB72 /* SDAnimatedImageBugTestView.swift in Sources */,
+				518941FF238721C300C4AB72 /* SDAnimatedImageTestView.swift in Sources */,
 				518941D3238721AF00C4AB72 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
