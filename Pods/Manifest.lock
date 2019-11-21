@@ -1,0 +1,31 @@
+PODS:
+  - SDWebImage (5.3.1):
+    - SDWebImage/Core (= 5.3.1)
+  - SDWebImage/Core (5.3.1)
+  - SDWebImageSwiftUI (0.8.5):
+    - SDWebImage (~> 5.3)
+
+DEPENDENCIES:
+  - SDWebImageSwiftUI (from `https://github.com/SDWebImage/SDWebImageSwiftUI.git`, branch `bugfix_animatedImage_refresh_change_url`)
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+
+EXTERNAL SOURCES:
+  SDWebImageSwiftUI:
+    :branch: bugfix_animatedImage_refresh_change_url
+    :git: https://github.com/SDWebImage/SDWebImageSwiftUI.git
+
+CHECKOUT OPTIONS:
+  SDWebImageSwiftUI:
+    :commit: 1485f020aeb580cddeeeed00b5c46485843e3a3d
+    :git: https://github.com/SDWebImage/SDWebImageSwiftUI.git
+
+SPEC CHECKSUMS:
+  SDWebImage: 7137d57385fb632129838c1e6ab9528a22c666cc
+  SDWebImageSwiftUI: 6d389393d4c75d039a249b6b61a166bd682fa5c6
+
+PODFILE CHECKSUM: 4b50704cac89373aea7a36679edeaed8ef685ac0
+
+COCOAPODS: 1.8.4

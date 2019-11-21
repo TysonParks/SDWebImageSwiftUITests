@@ -1,0 +1,6 @@
+framework module Pods_SDWebImageSwiftUITests {
+  umbrella header "Pods-SDWebImageSwiftUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
